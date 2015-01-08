@@ -3,8 +3,7 @@
         "name": "default",
         "description": "WebUI for local",
         "platforms": [
-            { "name": "desktop_osx#10.9_chrome" },
-            { "name": "desktop_windows#8_firefox#30" }
+            { "name": "desktop_osx#10.9_chrome" }
         ]
     }
 ]
