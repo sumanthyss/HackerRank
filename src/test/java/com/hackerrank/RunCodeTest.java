@@ -1,9 +1,12 @@
 package com.hackerrank;
 
+import java.lang.reflect.Method;
+
 import junit.framework.Assert;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.intuit.tools.commontestbase.IBrowserTestNGBase;
@@ -15,6 +18,14 @@ import com.pageobject.WarmupSubDomain;
 
 public class RunCodeTest extends IBrowserTestNGBase{
 
+	@DataProvider(name = "signInData")
+    public Object[][] createData(Method testMethod) {
+        Object[][] myData = new Object[][] {
+            {"sumanthyss@gmail.com", "hackhack"},
+        };
+        return mergeWithTestPlatforms(testMethod, myData);
+	}
+
 	//1. Login
 	//2. Assert for the logged in user
 	//3. Choose Algorithms domain
@@ -22,8 +33,8 @@ public class RunCodeTest extends IBrowserTestNGBase{
 	//5. Run the code
 	//6. Assert for the success message
 
-	@Test(dataProvider = "from-json")
-	public void testRunCode(WebDriver driver) throws Exception{
+	@Test(dataProvider = "signInData", enabled = true)
+	public void testRunCode(WebDriver driver, String userId, String password) throws Exception{
 
 		if (driver instanceof RemoteWebDriver) {
             String jobid = ((RemoteWebDriver)driver).getSessionId().toString();
@@ -32,7 +43,7 @@ public class RunCodeTest extends IBrowserTestNGBase{
 
 		HomePage homePage = new HomePage(driver);
 		LoginPage loginPage = homePage.clickLoginButton();
-		DomainsPage domainsPage = loginPage.login("sumanthyss@gmail.com", "hackhack");
+		DomainsPage domainsPage = loginPage.login(userId, password);
 		Assert.assertEquals("sumanthyss", domainsPage.getLoggedInUser());
 		WarmupSubDomain warmupSubDomain = domainsPage.algorithmsWarmup();
 		SolveMeFirstPage solveMeFirstPage = warmupSubDomain.solveMeFirst();
