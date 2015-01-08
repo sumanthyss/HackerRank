@@ -322,3 +322,78 @@
 2015-01-09 00:49:18 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
 2015-01-09 00:49:18 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
 2015-01-09 00:49:18 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-09 01:31:30 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-09 01:31:30 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-09 01:31:30 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-09 01:31:30 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-09 01:31:30 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-09 01:31:30 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : false
+2015-01-09 01:31:30 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-09 01:31:30 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-09 01:31:30 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : true
+2015-01-09 01:31:30 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-09 01:31:30 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-09 01:31:30 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-09 01:31:30 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-09 01:31:30 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-09 01:31:30 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-09 01:31:30 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_osx#10.8_chrome
+2015-01-09 01:31:30 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_osx#10.8_chrome not found and will try to infer its capabilities from the given platrform name.
+2015-01-09 01:31:30 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-09 01:31:30 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-09 01:31:30 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: OS X/10.8
+2015-01-09 01:31:30 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: chrome/null
+2015-01-09 01:31:30 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-09 01:31:30 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-09 01:31:30 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-09 01:31:30 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver from the VendorGrid...
+2015-01-09 01:31:30 GridBuilder (createWebDriverFromVendorGrid) [INFO] Attempt to create a web driver from http://sbg_ems:5cd838cb-0e5d-427b-bc8d-27a0eb3dad7f@localhost:4445/wd/hub with
+Capabilities [{record-video=true, platform=OS X 10.8, idle-timeout=180, video-upload-on-pass=false, browserName=chrome, record-screenshots=true, name=testHelloWorld, command-timeout=300, capture-html=true, build=Nightly-b1, version=, max-duration=1800}]
+2015-01-09 01:31:39 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-09 01:31:40 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-09 01:33:42 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-09 01:33:42 IBrowserTestNGListener (onTestFailure) [INFO] job id: 4fce5e7c36384d808e701f5a43972ed6
+2015-01-09 01:33:42 IBrowserTestNGListener (updateSauceTestJob) [INFO] SauceLabs is enabled so updating the sauce labs job.
+2015-01-09 01:33:44 IBrowserTestNGListener (updateSauceTestJob) [INFO] Updating Sauce Job Id :4fce5e7c36384d808e701f5a43972ed6 Completed.
+2015-01-09 01:33:44 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-09 01:33:44 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-09 01:47:01 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-09 01:47:01 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-09 01:47:01 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-09 01:47:01 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-09 01:47:01 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-09 01:47:01 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : false
+2015-01-09 01:47:01 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-09 01:47:01 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-09 01:47:01 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : true
+2015-01-09 01:47:01 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-09 01:47:01 WebDriverProvider (mergeWithTestPlatforms) [INFO] testPlatformsPath either null or not loadable. Trying to load from the @TestPlatformsPath annotation or the default path, /config/test_platforms.json.
+2015-01-09 01:47:01 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-09 01:47:01 WebDriverProvider (mergeWithTestPlatforms) [INFO] Resolved Test Platforms Path: /config/test_platforms.json
+2015-01-09 01:47:01 WebDriverProvider (mergeWithTestPlatforms) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-09 01:47:01 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-09 01:47:01 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-09 01:47:01 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_osx#10.8_chrome
+2015-01-09 01:47:01 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_osx#10.8_chrome not found and will try to infer its capabilities from the given platrform name.
+2015-01-09 01:47:01 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-09 01:47:01 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-09 01:47:01 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: OS X/10.8
+2015-01-09 01:47:01 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: chrome/null
+2015-01-09 01:47:01 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-09 01:47:01 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-09 01:47:01 WebDriverProvider (mergeWithTestPlatforms) [INFO] WebDriverProvider: Local Enabled with AppiumDriver - No
+2015-01-09 01:47:01 WebDriverProvider (mergeWithTestPlatforms) [INFO] Number of Merged Test Platforms: 1
+2015-01-09 01:47:01 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-09 01:47:01 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver from the VendorGrid...
+2015-01-09 01:47:01 GridBuilder (createWebDriverFromVendorGrid) [INFO] Attempt to create a web driver from http://sbg_ems:5cd838cb-0e5d-427b-bc8d-27a0eb3dad7f@localhost:4445/wd/hub with
+Capabilities [{record-video=true, platform=OS X 10.8, idle-timeout=180, video-upload-on-pass=false, browserName=chrome, record-screenshots=true, name=testRunCode, command-timeout=300, capture-html=true, build=Nightly-b1, version=, max-duration=1800}]
+2015-01-09 01:47:09 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-09 01:47:10 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-09 01:49:45 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-09 01:49:45 IBrowserTestNGListener (onTestFailure) [INFO] job id: e15bb1156a1645b29c3528adea61c141
+2015-01-09 01:49:45 IBrowserTestNGListener (updateSauceTestJob) [INFO] SauceLabs is enabled so updating the sauce labs job.
+2015-01-09 01:49:53 IBrowserTestNGListener (updateSauceTestJob) [INFO] Updating Sauce Job Id :e15bb1156a1645b29c3528adea61c141 Completed.
+2015-01-09 01:49:53 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-09 01:49:53 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...

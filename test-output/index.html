@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-HelloWorldTest">
+              <span class="suite-name border-failed">HelloWorldTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-HelloWorldTest">
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-HelloWorldTest">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-HelloWorldTest">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-HelloWorldTest">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-HelloWorldTest">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-HelloWorldTest">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-HelloWorldTest">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -95,16 +95,16 @@
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
                     <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-HelloWorldTest" class="hide-methods failed suite-HelloWorldTest"> (hide)</a> <!-- hide-methods failed suite-HelloWorldTest -->
+                      <a href="#" panel-name="suite-HelloWorldTest" class="show-methods failed suite-HelloWorldTest"> (show)</a> <!-- show-methods failed suite-HelloWorldTest -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content failed suite-HelloWorldTest">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hackerrank.LoginTest" hash-for-method="testHelloWorld(SafariDriver: safari on MAC (null))">testHelloWorld(SafariDriver: safari on MAC (null))</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloWorldTest" title="com.hackerrank.RunCodeTest" hash-for-method="testRunCode(RemoteWebDriver: chrome on MAC (null), sumanthyss@gmail.com, hackhack)">testRunCode(RemoteWebDriver: chrome on MAC (null), sumanthyss@gmail.com, hackhack)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-HelloWorldTest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -115,124 +115,96 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+        <div panel-name="suite-HelloWorldTest" class="panel HelloWorldTest">
+          <div class="suite-HelloWorldTest-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.hackerrank.LoginTest</span>
+              <span class="class-name">com.hackerrank.RunCodeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testHelloWorld(SafariDriver: safari on MAC (null))">
-                  </a> <!-- testHelloWorld(SafariDriver: safari on MAC (null)) -->
-                  <span class="method-name">testHelloWorld</span>
-                  <span class="parameters">(SafariDriver: safari on MAC (null))</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for com.pageobject.SolveMeFirstPage$2@6538b0f9
+                  <a name="testRunCode(RemoteWebDriver: chrome on MAC (null), sumanthyss@gmail.com, hackhack)">
+                  </a> <!-- testRunCode(RemoteWebDriver: chrome on MAC (null), sumanthyss@gmail.com, hackhack) -->
+                  <span class="method-name">testRunCode</span>
+                  <span class="parameters">(RemoteWebDriver: chrome on MAC (null), sumanthyss@gmail.com, hackhack)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=35.0.1916.114)
+  (Driver info: chromedriver=2.10.267517,platform=Mac OS X 10.8.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 833 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
-System info: host: &apos;BANL1191b9713.local&apos;, ip: &apos;192.168.71.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.4&apos;, java.version: &apos;1.7.0_71&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:259)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.pageobject.SolveMeFirstPage.getAck(SolveMeFirstPage.java:43)
-	at com.hackerrank.LoginTest.testHelloWorld(LoginTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:200)
-	at com.intuit.tools.commontestbase.IBrowserTestNGBase.run(IBrowserTestNGBase.java:170)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:212)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.NoSuchElementException: Could not find element: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//*[@id=&apos;testcase1&apos;]/p&quot;} (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
-System info: host: &apos;BANL1191b9713.local&apos;, ip: &apos;192.168.71.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.4&apos;, java.version: &apos;1.7.0_71&apos;
-Session ID: null
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=6.0.5}]
-	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+System info: host: &apos;BANL1191b9713.local&apos;, ip: &apos;172.16.136.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.4&apos;, java.version: &apos;1.7.0_71&apos;
+Session ID: e15bb1156a1645b29c3528adea61c141
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=/var/folders/0w/mrhl7x0974n6zv2mpl6vz5_80000gn/T/.org.chromium.Chromium.0C721w}, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=e15bb1156a1645b29c3528adea61c141, version=35.0.1916.114, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.pageobject.SolveMeFirstPage$2.apply(SolveMeFirstPage.java:45)
-	at com.pageobject.SolveMeFirstPage$2.apply(SolveMeFirstPage.java:1)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 24 more
-
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.pageobject.WarmupSubDomain.solveMeFirst(WarmupSubDomain.java:34)
+	at com.hackerrank.RunCodeTest.testRunCode(RunCodeTest.java:49)
+	at com.intuit.tools.commontestbase.IBrowserTestNGBase.run(IBrowserTestNGBase.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 20 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-HelloWorldTest-class-failed -->
+        </div> <!-- panel HelloWorldTest -->
+        <div panel-name="test-xml-HelloWorldTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/xc/8b1df8m939154crnsl8hn5pjnj1c5n/T/testng-eclipse-2030306678/testng-customsuite.xml</span>
+            <span class="header-content">/Users/ss7/martini-cli/HackerRank/src/test/resources/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;HelloWorldTest&quot; parallel=&quot;methods&quot; data-provider-thread-count=&quot;1&quot;&gt;
+  &lt;test name=&quot;SmokeTest&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.hackerrank.*&quot;/&gt;
+    &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.hackerrank.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.hackerrank.RunCodeTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- SmokeTest --&gt;
+&lt;/suite&gt; &lt;!-- HelloWorldTest --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-HelloWorldTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for HelloWorldTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">SmokeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-HelloWorldTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for HelloWorldTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-HelloWorldTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for HelloWorldTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_HelloWorldTest');
+function tableData_HelloWorldTest() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -240,57 +212,57 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testHelloWorld')
-data.setCell(0, 2, 'com.hackerrank.LoginTest')
-data.setCell(0, 3, 34739);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'testRunCode')
+data.setCell(0, 2, 'com.hackerrank.RunCodeTest')
+data.setCell(0, 3, 164168);
+window.suiteTableData['HelloWorldTest']= { tableData: data, tableDiv: 'times-div-HelloWorldTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-HelloWorldTest">
+              </div> <!-- times-div-HelloWorldTest -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-HelloWorldTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for HelloWorldTest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-HelloWorldTest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-HelloWorldTest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.hackerrank.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.hackerrank.RunCodeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUpBeforeMethod(public void com.hackerrank.LoginTest.testHelloWorld(org.openqa.selenium.WebDriver) throws java.lang....)</span>
+                <span class="method-name">setUpBeforeMethod(public void com.hackerrank.RunCodeTest.testRunCode(org.openqa.selenium.WebDriver,java.lang.String,ja...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testHelloWorld(SafariDriver: safari on MAC (null))</span>
-                <span class="method-start">5 ms</span>
+                <span class="method-name">testRunCode(RemoteWebDriver: chrome on MAC (null), sumanthyss@gmail.com, hackhack)</span>
+                <span class="method-start">4 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownAfterMethod</span>
-                <span class="method-start">34759 ms</span>
+                <span class="method-start">172670 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownAfterClass</span>
-                <span class="method-start">34780 ms</span>
+                <span class="method-start">172670 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

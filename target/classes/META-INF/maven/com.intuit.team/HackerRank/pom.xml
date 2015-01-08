@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    
+
     <groupId>com.intuit.team</groupId>
     <artifactId>HackerRank</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -10,7 +10,7 @@
     <name>HackerRank</name>
     <description>HackerRank description here</description>
     <url>http://maven.apache.org</url>
-    
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <martini.version>1.2.0</martini.version>
@@ -25,7 +25,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -33,15 +33,15 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.15</version>
                 <configuration>
-                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                    <redirectTestOutputToFile>false</redirectTestOutputToFile>
                     <suiteXmlFiles>
                         <suiteXmlFile>${project.basedir}/src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                </configuration>  
+                </configuration>
             </plugin>
         </plugins>
     </build>
-    
+
     <repositories>
         <!-- The following 3 repositories in this pom is not recommended and should follow prerequisite at -->
         <!-- http://wiki.intuit.com/display/CTOTools/Prerequisite for details.-->
