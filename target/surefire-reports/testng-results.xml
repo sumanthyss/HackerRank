@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HelloWorldTest" duration-ms="32083" started-at="2015-01-08T21:35:25Z" finished-at="2015-01-08T21:35:57Z">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="32083" started-at="2015-01-08T21:35:25Z" finished-at="2015-01-08T21:35:57Z">
+      <class name="com.intuit.team.HelloWorld2Test">
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.intuit.team.HelloWorld2Test@2e24655f]" name="setUpBeforeMethod" is-config="true" duration-ms="7" started-at="2015-01-08T21:35:25Z" finished-at="2015-01-08T21:35:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.intuit.team.HelloWorld2Test.testHelloWorldWithMyDataProvider(org.openqa.selenium.WebDriver,java.lang.String,java.lang.String,boolean) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testHelloWorldWithMyDataProvider(org.openqa.selenium.WebDriver, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.intuit.team.HelloWorld2Test@2e24655f]" name="testHelloWorldWithMyDataProvider" duration-ms="15495" started-at="2015-01-08T21:35:25Z" finished-at="2015-01-08T21:35:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SafariDriver: safari on MAC (null)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rb_sc25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nopassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.intuit.team.HelloWorld2Test@2e24655f]" name="tearDownAfterMethod" is-config="true" duration-ms="0" started-at="2015-01-08T21:35:41Z" finished-at="2015-01-08T21:35:41Z">
+        </test-method>
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.intuit.team.HelloWorld2Test@2e24655f]" name="setUpBeforeMethod" is-config="true" duration-ms="1" started-at="2015-01-08T21:35:41Z" finished-at="2015-01-08T21:35:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.intuit.team.HelloWorld2Test.testHelloWorldWithMyDataProvider(org.openqa.selenium.WebDriver,java.lang.String,java.lang.String,boolean) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testHelloWorldWithMyDataProvider(org.openqa.selenium.WebDriver, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.intuit.team.HelloWorld2Test@2e24655f]" name="testHelloWorldWithMyDataProvider" duration-ms="8272" started-at="2015-01-08T21:35:41Z" finished-at="2015-01-08T21:35:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SafariDriver: safari on MAC (null)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cb_sc27]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testpasswd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.intuit.team.HelloWorld2Test@2e24655f]" name="tearDownAfterMethod" is-config="true" duration-ms="0" started-at="2015-01-08T21:35:49Z" finished-at="2015-01-08T21:35:49Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:com.intuit.team.HelloWorld2Test@2e24655f]" name="tearDownAfterClass" is-config="true" duration-ms="1" started-at="2015-01-08T21:35:49Z" finished-at="2015-01-08T21:35:49Z">
+        </test-method>
+      </class>
+      <class name="com.intuit.team.HelloWorldTest">
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.intuit.team.HelloWorldTest@1358d955]" name="setUpBeforeMethod" is-config="true" duration-ms="1" started-at="2015-01-08T21:35:49Z" finished-at="2015-01-08T21:35:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.intuit.team.HelloWorldTest.testHelloWorld(org.openqa.selenium.WebDriver) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testHelloWorld(org.openqa.selenium.WebDriver)[pri:0, instance:com.intuit.team.HelloWorldTest@1358d955]" name="testHelloWorld" duration-ms="7481" started-at="2015-01-08T21:35:49Z" finished-at="2015-01-08T21:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SafariDriver: safari on MAC (null)]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.intuit.team.HelloWorldTest@1358d955]" name="tearDownAfterMethod" is-config="true" duration-ms="0" started-at="2015-01-08T21:35:57Z" finished-at="2015-01-08T21:35:57Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:com.intuit.team.HelloWorldTest@1358d955]" name="tearDownAfterClass" is-config="true" duration-ms="1" started-at="2015-01-08T21:35:57Z" finished-at="2015-01-08T21:35:57Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

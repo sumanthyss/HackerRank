@@ -1,0 +1,902 @@
+2015-01-08 21:35:25 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 21:35:25 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 21:35:25 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 21:35:25 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 21:35:25 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 21:35:25 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 21:35:25 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 21:35:25 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 21:35:25 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 21:35:25 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 21:35:25 WebDriverProvider (mergeWithTestPlatforms) [INFO] testPlatformsPath either null or not loadable. Trying to load from the @TestPlatformsPath annotation or the default path, /config/test_platforms.json.
+2015-01-08 21:35:25 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 21:35:25 WebDriverProvider (mergeWithTestPlatforms) [INFO] Resolved Test Platforms Path: /config/test_platforms.json
+2015-01-08 21:35:25 WebDriverProvider (mergeWithTestPlatforms) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 21:35:25 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 21:35:25 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 21:35:25 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 21:35:25 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 21:35:25 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 21:35:25 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 21:35:25 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 21:35:25 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 21:35:25 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 21:35:25 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 21:35:25 WebDriverProvider (mergeWithTestPlatforms) [INFO] WebDriverProvider: Local Enabled with AppiumDriver - No
+2015-01-08 21:35:25 WebDriverProvider (mergeWithTestPlatforms) [INFO] Number of Merged Test Platforms: 2
+2015-01-08 21:35:25 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 21:35:25 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 21:35:25 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 21:35:25 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 21:35:25 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 21:35:25 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 21:35:25 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 21:35:29 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 21:35:29 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 21:35:41 IBrowserTestNGListener (onTestSuccess) [INFO] [ICT] onTestSuccess...
+2015-01-08 21:35:41 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 21:35:41 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 21:35:41 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 21:35:41 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 21:35:41 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 21:35:41 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 21:35:41 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 21:35:41 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 21:35:42 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 21:35:42 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 21:35:49 IBrowserTestNGListener (onTestSuccess) [INFO] [ICT] onTestSuccess...
+2015-01-08 21:35:49 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 21:35:49 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 21:35:49 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 21:35:49 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 21:35:49 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 21:35:49 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 21:35:49 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 21:35:49 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 21:35:49 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 21:35:49 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 21:35:49 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 21:35:49 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 21:35:49 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 21:35:49 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 21:35:49 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 21:35:49 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 21:35:49 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 21:35:49 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 21:35:49 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 21:35:49 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 21:35:49 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 21:35:50 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 21:35:50 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 21:35:57 IBrowserTestNGListener (onTestSuccess) [INFO] [ICT] onTestSuccess...
+2015-01-08 21:35:57 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 21:35:57 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:11:53 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:11:53 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:11:53 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:11:53 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:11:53 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:11:53 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:11:53 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:11:53 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:11:53 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:11:53 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:11:53 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:11:53 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:11:53 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:11:53 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:11:53 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:11:53 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:11:53 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:11:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:11:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:11:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:11:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:11:53 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:11:53 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:11:53 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:11:53 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:11:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:11:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:11:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:11:53 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:11:53 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:11:56 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:11:56 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:12:22 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 22:12:22 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:12:22 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:13:08 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:13:08 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:13:08 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:13:08 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:13:08 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:13:08 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:13:08 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:13:08 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:13:08 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:13:08 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:13:08 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:13:08 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:13:08 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:13:08 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:13:08 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:13:08 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:13:08 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:13:08 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:13:08 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:13:08 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:13:08 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:13:08 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:13:08 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:13:08 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:13:08 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:13:08 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:13:08 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:13:08 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:13:08 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:13:08 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:13:09 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:13:09 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:13:24 IBrowserTestNGListener (onTestSuccess) [INFO] [ICT] onTestSuccess...
+2015-01-08 22:13:24 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:13:24 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:31:53 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:31:53 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:31:53 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:31:53 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:31:53 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:31:53 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:31:53 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:31:53 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:31:53 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:31:53 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:31:53 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:31:53 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:31:53 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:31:53 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:31:53 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:31:53 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:31:53 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:31:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:31:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:31:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:31:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:31:53 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:31:53 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:31:53 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:31:53 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:31:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:31:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:31:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:31:53 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:31:53 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:31:55 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:31:55 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:32:16 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 22:32:16 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:32:16 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:32:32 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:32:32 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:32:32 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:32:32 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:32:32 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:32:32 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:32:32 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:32:32 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:32:32 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:32:32 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:32:32 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:32:32 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:32:32 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:32:32 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:32:32 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:32:32 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:32:32 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:32:32 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:32:32 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:32:32 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:32:32 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:32:32 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:32:32 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:32:32 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:32:32 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:32:32 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:32:32 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:32:32 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:32:32 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:32:32 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:32:34 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:32:34 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:32:57 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 22:32:57 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:32:57 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:33:52 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:33:52 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:33:52 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:33:52 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:33:52 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:33:52 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:33:52 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:33:52 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:33:52 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:33:52 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:33:52 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:33:52 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:33:52 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:33:52 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:33:52 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:33:52 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:33:52 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:33:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:33:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:33:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:33:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:33:52 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:33:52 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:33:52 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:33:52 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:33:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:33:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:33:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:33:52 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:33:52 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:33:54 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:33:54 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:34:13 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 22:34:13 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:34:13 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:34:27 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:34:27 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:34:27 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:34:27 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:34:27 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:34:27 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:34:27 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:34:27 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:34:27 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:34:27 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:34:27 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:34:27 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:34:27 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:34:27 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:34:27 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:34:27 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:34:27 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:34:27 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:34:27 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:34:27 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:34:27 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:34:27 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:34:27 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:34:27 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:34:27 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:34:27 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:34:27 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:34:27 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:34:27 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:34:27 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:34:28 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:34:28 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:34:48 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 22:34:48 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:34:48 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:36:52 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:36:52 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:36:52 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:36:52 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:36:52 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:36:52 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:36:52 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:36:52 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:36:52 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:36:52 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:36:52 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:36:52 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:36:52 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:36:52 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:36:52 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:36:52 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:36:52 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:36:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:36:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:36:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:36:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:36:52 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:36:52 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:36:52 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:36:52 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:36:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:36:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:36:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:36:52 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:36:52 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:36:54 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:36:54 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:37:17 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 22:37:17 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:37:17 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:38:54 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:38:54 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:38:54 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:38:54 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:38:54 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:38:54 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:38:54 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:38:54 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:38:54 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:38:54 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:38:54 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:38:54 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:38:54 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:38:54 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:38:54 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:38:54 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:38:54 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:38:54 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:38:54 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:38:54 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:38:54 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:38:54 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:38:54 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:38:54 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:38:54 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:38:54 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:38:54 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:38:54 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:38:54 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:38:54 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:38:56 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:38:56 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:39:18 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 22:39:18 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:39:18 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 22:40:03 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:40:03 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 22:40:03 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:40:03 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 22:40:03 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 22:40:03 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 22:40:03 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 22:40:03 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 22:40:03 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 22:40:03 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 22:40:03 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 22:40:03 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 22:40:03 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 22:40:03 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 22:40:03 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 22:40:03 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 22:40:03 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 22:40:03 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 22:40:03 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 22:40:03 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 22:40:03 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 22:40:03 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 22:40:03 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 22:40:03 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 22:40:03 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 22:40:03 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 22:40:03 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 22:40:03 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 22:40:03 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 22:40:03 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 22:40:04 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 22:40:04 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 22:40:27 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 22:40:27 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 22:40:27 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:04:20 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:04:20 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:04:20 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:04:20 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:04:20 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:04:20 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:04:20 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:04:20 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:04:20 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:04:20 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:04:21 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:04:21 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:04:21 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:04:21 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:04:21 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:04:21 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:04:21 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:04:21 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:04:21 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:04:21 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:04:21 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:04:21 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:04:21 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:04:21 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:04:21 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:04:21 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:04:21 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:04:21 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:04:21 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:04:21 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:04:24 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:04:24 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:04:44 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:04:44 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:04:44 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:05:44 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:05:44 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:05:44 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:05:44 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:05:44 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:05:44 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:05:44 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:05:44 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:05:44 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:05:44 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:05:45 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:05:45 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:05:45 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:05:45 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:05:45 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:05:45 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:05:45 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:05:45 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:05:45 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:05:45 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:05:45 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:05:45 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:05:45 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:05:45 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:05:45 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:05:45 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:05:45 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:05:45 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:05:45 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:05:45 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:05:46 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:05:46 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:06:06 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:06:06 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:06:06 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:07:52 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:07:52 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:07:52 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:07:52 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:07:52 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:07:52 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:07:52 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:07:52 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:07:52 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:07:52 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:07:52 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:07:52 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:07:52 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:07:52 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:07:52 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:07:52 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:07:52 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:07:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:07:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:07:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:07:52 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:07:52 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:07:52 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:07:52 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:07:52 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:07:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:07:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:07:52 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:07:52 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:07:52 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:07:53 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:07:53 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:08:13 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:08:13 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:08:13 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:10:06 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:10:06 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:10:06 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:10:06 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:10:06 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:10:06 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:10:07 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:10:07 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:10:07 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:10:07 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:10:07 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:10:07 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:10:07 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:10:07 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:10:07 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:10:07 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:10:07 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:10:07 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:10:07 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:10:07 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:10:07 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:10:07 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:10:07 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:10:07 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:10:07 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:10:07 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:10:07 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:10:07 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:10:07 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:10:07 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:10:08 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:10:08 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:10:26 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:10:26 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:10:26 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:11:15 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:11:15 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:11:15 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:11:15 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:11:15 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:11:15 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:11:15 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:11:15 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:11:15 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:11:15 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:11:15 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:11:15 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:11:15 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:11:15 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:11:15 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:11:15 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:11:15 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:11:15 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:11:15 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:11:15 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:11:15 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:11:15 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:11:15 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:11:15 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:11:15 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:11:15 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:11:15 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:11:15 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:11:15 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:11:15 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:11:16 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:11:16 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:11:35 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:11:35 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:11:35 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:18:47 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:18:47 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:18:47 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:18:47 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:18:47 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:18:47 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:18:47 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:18:47 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:18:47 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:18:47 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:18:47 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:18:47 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:18:47 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:18:47 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:18:47 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:18:47 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:18:47 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:18:47 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:18:47 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:18:47 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:18:47 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:18:47 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:18:47 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:18:47 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:18:47 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:18:47 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:18:47 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:18:47 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:18:47 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:18:47 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:18:48 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:18:48 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:19:14 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:19:14 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:19:14 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:19:39 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:19:39 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:19:39 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:19:39 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:19:39 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:19:39 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:19:39 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:19:39 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:19:39 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:19:39 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:19:39 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:19:39 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:19:39 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:19:39 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:19:39 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:19:39 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:19:39 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:19:39 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:19:39 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:19:39 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:19:39 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:19:39 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:19:39 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:19:39 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:19:39 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:19:39 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:19:39 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:19:39 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:19:39 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:19:39 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:19:40 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:19:40 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:20:01 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:20:01 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:20:01 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:20:25 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:20:25 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:20:25 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:20:25 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:20:25 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:20:25 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:20:25 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:20:25 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:20:25 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:20:25 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:20:25 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:20:25 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:20:25 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:20:25 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:20:25 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:20:25 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:20:25 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:20:25 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:20:25 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:20:25 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:20:25 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:20:25 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:20:25 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:20:25 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:20:25 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:20:25 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:20:25 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:20:25 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:20:25 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:20:25 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:20:26 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:20:26 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:20:51 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:20:51 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:20:51 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:21:44 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:21:44 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:21:44 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:21:44 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:21:44 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:21:44 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:21:44 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:21:44 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:21:44 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:21:44 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:21:44 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:21:44 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:21:44 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:21:44 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:21:44 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:21:44 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:21:44 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:21:44 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:21:44 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:21:44 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:21:44 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:21:44 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:21:44 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:21:44 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:21:44 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:21:44 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:21:44 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:21:44 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:21:44 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:21:44 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:21:45 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:21:45 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:22:09 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:22:09 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:22:09 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:27:44 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:27:44 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:27:44 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:27:44 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:27:44 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:27:44 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:27:44 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:27:44 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:27:44 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:27:44 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:27:44 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:27:44 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:27:44 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:27:44 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:27:44 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:27:44 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:27:44 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:27:44 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:27:44 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:27:44 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:27:44 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:27:44 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:27:44 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:27:44 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:27:44 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:27:44 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:27:44 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:27:44 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:27:44 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:27:44 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:27:45 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:27:45 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:27:57 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:27:57 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:27:57 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:28:24 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:28:24 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:28:24 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:28:24 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:28:24 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:28:24 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:28:24 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:28:24 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:28:24 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:28:24 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:28:24 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:28:24 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:28:24 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:28:24 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:28:24 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:28:24 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:28:24 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:28:24 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:28:24 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:28:24 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:28:24 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:28:24 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:28:24 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:28:24 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:28:24 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:28:24 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:28:24 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:28:24 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:28:24 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:28:24 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:28:25 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:28:25 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:28:53 IBrowserTestNGListener (onTestSuccess) [INFO] [ICT] onTestSuccess...
+2015-01-08 23:28:53 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:28:53 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:29:38 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:29:38 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:29:38 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:29:38 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:29:38 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:29:38 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:29:38 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:29:38 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:29:38 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:29:38 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:29:38 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:29:38 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:29:38 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:29:38 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:29:38 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:29:38 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:29:38 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:29:38 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:29:38 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:29:38 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:29:38 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:29:38 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:29:38 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:29:39 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:29:39 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:29:39 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:29:39 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:29:39 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:29:39 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:29:39 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:29:39 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:29:39 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:30:06 IBrowserTestNGListener (onTestFailure) [INFO] [ICT] onTestFailure...
+2015-01-08 23:30:06 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:30:06 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:53:05 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:53:05 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:53:05 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:53:05 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:53:05 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:53:05 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:53:05 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:53:05 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:53:05 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:53:05 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:53:05 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:53:05 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:53:05 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:53:05 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:53:05 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:53:05 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:53:05 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:53:05 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:53:05 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:53:05 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:53:05 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:53:05 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:53:05 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:53:05 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:53:05 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:53:05 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:53:05 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:53:05 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:53:05 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:53:05 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:53:09 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:53:09 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:53:32 IBrowserTestNGListener (onTestSuccess) [INFO] [ICT] onTestSuccess...
+2015-01-08 23:53:32 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:53:32 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...
+2015-01-08 23:55:52 WebDriverFactory (postProcessConfigManager) [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:55:52 WebDriverFactory (postProcessConfigManager) [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 23:55:52 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:55:52 WebDriverFactory (<init>) [INFO] testConfigPath               : null
+2015-01-08 23:55:52 WebDriverFactory (<init>) [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 23:55:52 WebDriverFactory (<init>) [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 23:55:52 WebDriverFactory (<init>) [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 23:55:52 WebDriverFactory (<init>) [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 23:55:52 WebDriverFactory (<init>) [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 23:55:52 WebDriverFactory (<init>) [INFO] -------------------------------------
+2015-01-08 23:55:53 WebDriverProvider (getTestPlatformsJsonPath) [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 23:55:53 WebDriverProvider (createDriversFromTestPlatformsPathAnnotation) [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 23:55:53 WebDriverProvider (createDriversFromJSON) [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 23:55:53 TestPlatformsLoader (<init>) [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 23:55:53 TestPlatformsLoader (validateAndLoadPlatforms) [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 23:55:53 TestPlatformsLoader (expandPlatform) [INFO] Expanding the platform, desktop_default_default
+2015-01-08 23:55:53 TestPlatformsLoader (expandPlatform) [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 23:55:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO] Inferred Platform: 
+2015-01-08 23:55:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - device: desktop
+2015-01-08 23:55:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - os name/version: MAC/
+2015-01-08 23:55:53 TestPlatformsLoader (platformCapabilitiesByInferring) [INFO]  - browser name/version: safari/null
+2015-01-08 23:55:53 TestPlatformsLoader (<init>) [INFO] Loading test platforms - Done
+2015-01-08 23:55:53 WebDriverProvider (_createDriversFromJSON) [INFO] Loading test platforms from the JSON file.
+2015-01-08 23:55:53 IBrowserTestNGBase (setUpBeforeMethod) [INFO] setUpBeforeMethod started...
+2015-01-08 23:55:53 WebDriverBuilder (createWebDriver) [INFO] Attempt to create a webdriver locally...
+2015-01-08 23:55:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Desired platform: MAC
+2015-01-08 23:55:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Normalized name : os x
+2015-01-08 23:55:53 LocalDesktopBuilder (isPlatformMatchedForLocal) [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 23:55:53 LocalDesktopBuilder (isBrowserMatchedForLocal) [INFO] [ICT] Desired browser: safari
+2015-01-08 23:55:53 SafariBuilder (createWebDriver) [INFO] [ICT] Creating safari webdriver...
+2015-01-08 23:55:54 WebDriverBuilder (maximizeMe) [INFO] [ICT] Maximize the browser window...
+2015-01-08 23:55:54 WebDriverBuilder (maximizeMe) [INFO] [ICT] Successfully maximized the browser window...
+2015-01-08 23:56:16 IBrowserTestNGListener (onTestSuccess) [INFO] [ICT] onTestSuccess...
+2015-01-08 23:56:16 IBrowserTestNGBase (tearDownAfterMethod) [INFO] tearDownAfterMethod started...
+2015-01-08 23:56:16 IBrowserTestNGBase (tearDownAfterClass) [INFO] tearDownAfterClass started...

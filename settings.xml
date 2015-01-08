@@ -1,0 +1,9 @@
+<settings>
+    <mirrors>
+        <mirror>
+            <id>central-mirror</id>
+            <mirrorOf>*,!sonar</mirrorOf>
+            <url>http://nexus.payments.intuit.com/nexus/content/groups/psd</url>
+        </mirror>
+    </mirrors>
+</settings>

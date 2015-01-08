@@ -1,0 +1,152 @@
+2015-01-08 21:35:25 WebDriverFactory [INFO] WebDriverLocalTestPackage: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 21:35:25 WebDriverFactory [INFO] Valid WebDriverLocalTestPackage installed: /Users/ss7/webdriver-local-test-package/versions.properties
+2015-01-08 21:35:25 WebDriverFactory [INFO] -------------------------------------
+2015-01-08 21:35:25 WebDriverFactory [INFO] testConfigPath               : null
+2015-01-08 21:35:25 WebDriverFactory [INFO] userDefaultConfigPath        : /config/test_config.properties
+
+2015-01-08 21:35:25 WebDriverFactory [INFO] GridLevel.Local.ENABLED      : true
+2015-01-08 21:35:25 WebDriverFactory [INFO] GridLevel.PrivateGrid.ENABLED: false
+2015-01-08 21:35:25 WebDriverFactory [INFO] GridLevel.CommonGrid.ENABLED : false
+2015-01-08 21:35:25 WebDriverFactory [INFO] GridLevel.VendorGrid.ENABLED : false
+2015-01-08 21:35:25 WebDriverFactory [INFO] -------------------------------------
+2015-01-08 21:35:25 WebDriverProvider [INFO] testPlatformsPath either null or not loadable. Trying to load from the @TestPlatformsPath annotation or the default path, /config/test_platforms.json.
+2015-01-08 21:35:25 WebDriverProvider [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 21:35:25 WebDriverProvider [INFO] Resolved Test Platforms Path: /config/test_platforms.json
+2015-01-08 21:35:25 WebDriverProvider [WARN] Empty platforms.name detected. Assigning 'default'
+2015-01-08 21:35:25 TestPlatformsLoader [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 21:35:25 TestPlatformsLoader [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 21:35:25 TestPlatformsLoader [INFO] Expanding the platform, desktop_default_default
+2015-01-08 21:35:25 TestPlatformsLoader [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 21:35:25 TestPlatformsLoader [INFO] Inferred Platform: 
+2015-01-08 21:35:25 TestPlatformsLoader [INFO]  - device: desktop
+2015-01-08 21:35:25 TestPlatformsLoader [INFO]  - os name/version: MAC/
+2015-01-08 21:35:25 TestPlatformsLoader [INFO]  - browser name/version: safari/null
+2015-01-08 21:35:25 TestPlatformsLoader [INFO] Loading test platforms - Done
+2015-01-08 21:35:25 WebDriverProvider [INFO] Loading test platforms from the JSON file.
+2015-01-08 21:35:25 WebDriverProvider [INFO] WebDriverProvider: Local Enabled with AppiumDriver - No
+2015-01-08 21:35:25 WebDriverProvider [INFO] Number of Merged Test Platforms: 2
+2015-01-08 21:35:25 IBrowserTestNGBase [INFO] setUpBeforeMethod started...
+2015-01-08 21:35:25 WebDriverBuilder [INFO] Attempt to create a webdriver locally...
+2015-01-08 21:35:25 LocalDesktopBuilder [INFO] [ICT] Desired platform: MAC
+2015-01-08 21:35:25 LocalDesktopBuilder [INFO] [ICT] Normalized name : os x
+2015-01-08 21:35:25 LocalDesktopBuilder [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 21:35:25 LocalDesktopBuilder [INFO] [ICT] Desired browser: safari
+2015-01-08 21:35:25 SafariBuilder [INFO] [ICT] Creating safari webdriver...
+Jan 08, 2015 9:35:25 PM org.openqa.selenium.safari.SafariDriverServer start
+INFO: Server started on port 4942
+Jan 08, 2015 9:35:25 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Launching Safari
+Jan 08, 2015 9:35:25 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Waiting for SafariDriver to connect
+Jan 08, 2015 9:35:29 PM org.openqa.selenium.safari.SafariDriverChannelHandler$1 operationComplete
+INFO: Connection opened
+Jan 08, 2015 9:35:29 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Driver connected in 3118 ms
+2015-01-08 21:35:29 WebDriverBuilder [INFO] [ICT] Maximize the browser window...
+2015-01-08 21:35:29 WebDriverBuilder [INFO] [ICT] Successfully maximized the browser window...
+UserID: rb_sc25
+Password: nopassword
+SignUpSuccess: false
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Shutting down
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Closing connection
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Stopping Safari
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Stopping server
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverServer stop
+INFO: Stopping server
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Uninstalling extensions
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Shutdown complete
+2015-01-08 21:35:41 IBrowserTestNGListener [INFO] [ICT] onTestSuccess...
+2015-01-08 21:35:41 IBrowserTestNGBase [INFO] tearDownAfterMethod started...
+2015-01-08 21:35:41 IBrowserTestNGBase [INFO] setUpBeforeMethod started...
+2015-01-08 21:35:41 WebDriverBuilder [INFO] Attempt to create a webdriver locally...
+2015-01-08 21:35:41 LocalDesktopBuilder [INFO] [ICT] Desired platform: MAC
+2015-01-08 21:35:41 LocalDesktopBuilder [INFO] [ICT] Normalized name : os x
+2015-01-08 21:35:41 LocalDesktopBuilder [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 21:35:41 LocalDesktopBuilder [INFO] [ICT] Desired browser: safari
+2015-01-08 21:35:41 SafariBuilder [INFO] [ICT] Creating safari webdriver...
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverServer start
+INFO: Server started on port 20987
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Launching Safari
+Jan 08, 2015 9:35:41 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Waiting for SafariDriver to connect
+Jan 08, 2015 9:35:42 PM org.openqa.selenium.safari.SafariDriverChannelHandler$1 operationComplete
+INFO: Connection opened
+Jan 08, 2015 9:35:42 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Driver connected in 1498 ms
+2015-01-08 21:35:42 WebDriverBuilder [INFO] [ICT] Maximize the browser window...
+2015-01-08 21:35:42 WebDriverBuilder [INFO] [ICT] Successfully maximized the browser window...
+UserID: cb_sc27
+Password: testpasswd
+SignUpSuccess: true
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Shutting down
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Closing connection
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Stopping Safari
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Stopping server
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverServer stop
+INFO: Stopping server
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Uninstalling extensions
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Shutdown complete
+2015-01-08 21:35:49 IBrowserTestNGListener [INFO] [ICT] onTestSuccess...
+2015-01-08 21:35:49 IBrowserTestNGBase [INFO] tearDownAfterMethod started...
+2015-01-08 21:35:49 IBrowserTestNGBase [INFO] tearDownAfterClass started...
+2015-01-08 21:35:49 WebDriverProvider [WARN] [ICT] Test Method context has no TestPlatformsPath annotation. Default to /config/test_platforms.json
+2015-01-08 21:35:49 WebDriverProvider [INFO] Test Platforms JSON Path: /config/test_platforms.json
+2015-01-08 21:35:49 TestPlatformsLoader [INFO] Loading test platforms from /config/test_platforms.json using the group name, default
+2015-01-08 21:35:49 TestPlatformsLoader [INFO] [Martini] Number of platforms loaded: 1
+2015-01-08 21:35:49 TestPlatformsLoader [INFO] Expanding the platform, desktop_default_default
+2015-01-08 21:35:49 TestPlatformsLoader [INFO] A platform definition for desktop_default_default not found and will try to infer its capabilities from the given platrform name.
+2015-01-08 21:35:49 TestPlatformsLoader [INFO] Inferred Platform: 
+2015-01-08 21:35:49 TestPlatformsLoader [INFO]  - device: desktop
+2015-01-08 21:35:49 TestPlatformsLoader [INFO]  - os name/version: MAC/
+2015-01-08 21:35:49 TestPlatformsLoader [INFO]  - browser name/version: safari/null
+2015-01-08 21:35:49 TestPlatformsLoader [INFO] Loading test platforms - Done
+2015-01-08 21:35:49 WebDriverProvider [INFO] Loading test platforms from the JSON file.
+2015-01-08 21:35:49 IBrowserTestNGBase [INFO] setUpBeforeMethod started...
+2015-01-08 21:35:49 WebDriverBuilder [INFO] Attempt to create a webdriver locally...
+2015-01-08 21:35:49 LocalDesktopBuilder [INFO] [ICT] Desired platform: MAC
+2015-01-08 21:35:49 LocalDesktopBuilder [INFO] [ICT] Normalized name : os x
+2015-01-08 21:35:49 LocalDesktopBuilder [INFO] [ICT] Local platform  : mac os x 10.8.4
+2015-01-08 21:35:49 LocalDesktopBuilder [INFO] [ICT] Desired browser: safari
+2015-01-08 21:35:49 SafariBuilder [INFO] [ICT] Creating safari webdriver...
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverServer start
+INFO: Server started on port 29884
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Launching Safari
+Jan 08, 2015 9:35:49 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Waiting for SafariDriver to connect
+Jan 08, 2015 9:35:50 PM org.openqa.selenium.safari.SafariDriverChannelHandler$1 operationComplete
+INFO: Connection opened
+Jan 08, 2015 9:35:50 PM org.openqa.selenium.safari.SafariDriverCommandExecutor start
+INFO: Driver connected in 876 ms
+2015-01-08 21:35:50 WebDriverBuilder [INFO] [ICT] Maximize the browser window...
+2015-01-08 21:35:50 WebDriverBuilder [INFO] [ICT] Successfully maximized the browser window...
+Jan 08, 2015 9:35:57 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Shutting down
+Jan 08, 2015 9:35:57 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Closing connection
+Jan 08, 2015 9:35:57 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Stopping Safari
+Jan 08, 2015 9:35:57 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Stopping server
+Jan 08, 2015 9:35:57 PM org.openqa.selenium.safari.SafariDriverServer stop
+INFO: Stopping server
+Jan 08, 2015 9:35:57 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Uninstalling extensions
+Jan 08, 2015 9:35:57 PM org.openqa.selenium.safari.SafariDriverCommandExecutor stop
+INFO: Shutdown complete
+2015-01-08 21:35:57 IBrowserTestNGListener [INFO] [ICT] onTestSuccess...
+2015-01-08 21:35:57 IBrowserTestNGBase [INFO] tearDownAfterMethod started...
+2015-01-08 21:35:57 IBrowserTestNGBase [INFO] tearDownAfterClass started...
