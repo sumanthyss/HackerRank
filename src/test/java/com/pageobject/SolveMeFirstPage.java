@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -23,7 +24,7 @@ public class SolveMeFirstPage {
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 				.withTimeout(10, TimeUnit.SECONDS)
 				.pollingEvery(500, TimeUnit.MILLISECONDS)
-				.ignoring(NoSuchElementException.class);
+				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class);
 
 		WebElement runCodeButton = wait.until(new Function<WebDriver, WebElement>() {
 			public WebElement apply(WebDriver driver){
