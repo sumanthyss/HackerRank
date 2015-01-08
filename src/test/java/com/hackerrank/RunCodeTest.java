@@ -3,6 +3,7 @@ package com.hackerrank;
 import junit.framework.Assert;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
 import com.intuit.tools.commontestbase.IBrowserTestNGBase;
@@ -22,7 +23,13 @@ public class RunCodeTest extends IBrowserTestNGBase{
 	//6. Assert for the success message
 
 	@Test(dataProvider = "from-json")
-	public void testHelloWorld(WebDriver driver) throws Exception{
+	public void testRunCode(WebDriver driver) throws Exception{
+
+		if (driver instanceof RemoteWebDriver) {
+            String jobid = ((RemoteWebDriver)driver).getSessionId().toString();
+       System.out.println(("SauceOnDemandSessionID" + "=" + jobid + "job-name" + "=" + "testRunCode"));
+        }
+
 		HomePage homePage = new HomePage(driver);
 		LoginPage loginPage = homePage.clickLoginButton();
 		DomainsPage domainsPage = loginPage.login("sumanthyss@gmail.com", "hackhack");
